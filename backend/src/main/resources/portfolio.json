@@ -1,0 +1,257 @@
+{
+  "profile": {
+    "name": "Vitalina Kliuieva",
+    "title": "Junior Software Developer",
+    "tagline": "Java & Spring Boot · Angular · Python · Test Automation",
+    "summary": "Computer Science student who builds, tests and deploys full-stack applications end to end: from REST APIs and relational schemas to Angular interfaces, automated test suites and AWS hosting. I care about clean architecture, reliable releases and code that stays maintainable, including code written with AI assistants.",
+    "location": "Poland",
+    "email": "vitalina.kliuieva@gmail.com",
+    "github": "https://github.com/VitalinaKliuieva",
+    "linkedin": "https://www.linkedin.com/in/vitalina-kliuieva-964b0a397",
+    "education": "B.Sc. Computer Science, Berlin International University of Applied Sciences (expected 09.2027)",
+    "languages": [
+      "English (C1)",
+      "Ukrainian (Native)",
+      "Polish (A2)"
+    ],
+    "keywords": [
+      "Junior Software Developer",
+      "Java Developer",
+      "Spring Boot",
+      "Angular",
+      "Python",
+      "Django",
+      "REST API",
+      "PostgreSQL",
+      "Test Automation",
+      "AWS EC2",
+      "Docker",
+      "CI/CD",
+      "JUnit 5",
+      "Selenium"
+    ]
+  },
+  "projects": [
+    {
+      "id": "mind-focus",
+      "title": "Mind Focus",
+      "subtitle": "Full-stack personal diary and productivity platform",
+      "category": "Full-stack",
+      "period": "09.2026 – 10.2026",
+      "summary": "A private web app that brings notes, planning, to-dos, goals, habits, mood tracking and a calendar into one live dashboard, with deadline reminders delivered in-app, by email and as browser push notifications. Deployed on AWS EC2.",
+      "problem": "Personal planning is usually scattered across several tools, and reminders arrive too late or not at all. I wanted one secure place to plan, track and reflect, with notifications that actually reach the user.",
+      "highlights": [
+        "Spring Boot 3 / Java 21 backend with 35+ REST endpoints, Spring Data JPA, Hibernate and PostgreSQL.",
+        "Stateless authentication and authorization with Spring Security and JWT; data access scoped to the owning user.",
+        "Angular 18 SPA with standalone components, lazy-loaded routes, route guards, functional HTTP interceptors and typed API services.",
+        "Scheduled reminder engine checking deadlines every minute and notifying through an in-app inbox, SMTP email (Spring Mail) and Web Push with Service Workers and VAPID keys.",
+        "Multi-level test strategy: JUnit 5, Mockito, AssertJ, MockMvc, Testcontainers with real PostgreSQL, REST Assured, Selenium and Allure reports.",
+        "79 black-box test cases (boundary values, equivalence classes, negative and authorization tests) that surfaced 4 defects.",
+        "Migrated from local development to AWS EC2 with Docker."
+      ],
+      "stack": [
+        "Java 21",
+        "Spring Boot 3",
+        "Spring Security",
+        "JWT",
+        "JPA/Hibernate",
+        "PostgreSQL",
+        "Angular 18",
+        "TypeScript",
+        "RxJS",
+        "Docker",
+        "AWS EC2",
+        "JUnit 5",
+        "Selenium"
+      ],
+      "repoUrl": "https://github.com/VitalinaKliuieva/Mind-Focus-Web",
+      "liveUrl": ""
+    },
+    {
+      "id": "taxi-fleet",
+      "title": "Taxi Fleet Management Platform",
+      "subtitle": "Django platform for drivers, vehicle owners and fleet operators",
+      "category": "Backend",
+      "period": "08.2026 – Present",
+      "summary": "A full-stack platform connecting drivers, vehicle owners/investors and fleet operators, which I design, build, test, deploy and operate on my own.",
+      "problem": "Fleet data (vehicles, ownership, drivers) is often tracked in spreadsheets, which makes responsibilities and ownership hard to follow. This platform gives each role a structured, shared view.",
+      "highlights": [
+        "Backend logic, database models and CRUD operations in Django on a PostgreSQL relational schema for vehicle, fleet and ownership data.",
+        "Modular architecture and separation of concerns to keep the codebase maintainable as features grow.",
+        "Unit tests to catch regressions and improve release stability.",
+        "Owned post-launch operation: diagnosed and resolved functional and integration issues."
+      ],
+      "stack": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "PyTest",
+        "Git"
+      ],
+      "repoUrl": "https://github.com/VitalinaKliuieva/TaxiWebsite",
+      "liveUrl": ""
+    },
+    {
+      "id": "olympic-dashboard",
+      "title": "Olympic Games Over Years",
+      "subtitle": "Interactive data analysis dashboard, 1896–2016",
+      "category": "Data & Full-stack",
+      "period": "10.2026",
+      "summary": "An interactive dashboard that explores Olympic history: athlete participation, gender representation, country-level statistics, medals and sports trends.",
+      "problem": "Raw Olympic datasets are large and hard to explore. I wanted to turn them into charts and filters that make long-term patterns easy to see.",
+      "highlights": [
+        "FastAPI REST API for data processing and aggregation with Pandas and NumPy.",
+        "Data cleaning, exploratory data analysis and statistical reasoning to find historical patterns.",
+        "Angular and TypeScript frontend with interactive Plotly.js visualizations and filters."
+      ],
+      "stack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "FastAPI",
+        "Angular",
+        "TypeScript",
+        "Plotly.js"
+      ],
+      "repoUrl": "https://github.com/VitalinaKliuieva/OlimpicGamesOverYearsAnalysis",
+      "liveUrl": ""
+    },
+    {
+      "id": "airbnb-analytics",
+      "title": "Airbnb Trends Analytics",
+      "subtitle": "Interactive analysis of short-term rental trends across 10 cities",
+      "category": "Data & Full-stack",
+      "period": "10.2026",
+      "summary": "A Java and Angular application with an interactive UI for exploring Airbnb market trends in the Maven Analytics dataset: about 250,000 listings and 5 million reviews across 10 cities.",
+      "problem": "Datasets of this size are impossible to read directly. I wanted a fast, filterable interface that turns listings and reviews into clear trends by city.",
+      "highlights": [
+        "Java backend that processes and aggregates a large dataset (about 250k listings, 5M reviews, 10 cities).",
+        "Angular interface with interactive filters and visualizations for comparing cities and trends.",
+        "Designed for responsive exploration of large data rather than static reports."
+      ],
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "TypeScript",
+        "REST API",
+        "Data Analysis"
+      ],
+      "repoUrl": "https://github.com/VitalinaKliuieva/AirBnbAnalysis",
+      "liveUrl": ""
+    },
+    {
+      "id": "movie-library",
+      "title": "Movie Library",
+      "subtitle": "Academic team project: Spring Boot CRUD application",
+      "category": "Backend",
+      "period": "06.2025 – 10.2025",
+      "summary": "A full-stack CRUD application with a RESTful Spring Boot backend, built in an Agile team as part of my degree.",
+      "problem": "Practice turning requirements into estimable tasks and delivering a maintainable backend as part of a team.",
+      "highlights": [
+        "RESTful backend with Java, Spring Boot, JPA and a relational database.",
+        "CRUD functionality with modular design and separation of concerns.",
+        "Translated requirements into well-defined, estimable tasks; wrote unit tests and resolved defects."
+      ],
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "JPA",
+        "REST",
+        "SQL",
+        "Agile"
+      ],
+      "repoUrl": "https://github.com/VitalinaKliuieva/ApplicationMovieCollection",
+      "liveUrl": ""
+    }
+  ],
+  "experience": [
+    {
+      "role": "Test Automation Trainee (Python)",
+      "org": "SoftServe · GreenCity",
+      "period": "01.2026 – 06.2026",
+      "description": "Test automation for GreenCity, a production web application for waste sorting and pickup management in Ukraine.",
+      "points": [
+        "Developed automated tests for API-driven modules and backend integrations, finding functional issues before release.",
+        "Designed scenarios for authentication, form validation and end-to-end workflows in a cross-functional Agile/Scrum team.",
+        "Integrated automated regression tests into the CI/CD pipeline.",
+        "Investigated failures, reported defects and maintained Allure reports."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "items": [
+        "Java 21",
+        "Spring Boot 3",
+        "Spring Security",
+        "JWT",
+        "Spring Data JPA",
+        "Hibernate",
+        "Python",
+        "Django",
+        "FastAPI",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "items": [
+        "Angular 18",
+        "TypeScript",
+        "RxJS",
+        "SCSS",
+        "HTML/CSS",
+        "Web Push API",
+        "Service Workers"
+      ]
+    },
+    {
+      "name": "Data",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "H2",
+        "SQL",
+        "Pandas",
+        "NumPy"
+      ]
+    },
+    {
+      "name": "Testing",
+      "items": [
+        "JUnit 5",
+        "Mockito",
+        "AssertJ",
+        "MockMvc",
+        "Testcontainers",
+        "REST Assured",
+        "Selenium",
+        "Allure",
+        "PyTest"
+      ]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "items": [
+        "Docker",
+        "Docker Compose",
+        "AWS EC2",
+        "CI/CD",
+        "Gradle",
+        "Git/GitHub"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "items": [
+        "OOP",
+        "Design patterns",
+        "Data structures & algorithms",
+        "Agile/Scrum",
+        "AI-assisted development with review"
+      ]
+    }
+  ]
+}

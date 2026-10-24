@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+portfolio:
+  allowed-origins: http://localhost:4200
