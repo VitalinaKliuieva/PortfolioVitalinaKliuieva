@@ -1,0 +1,46 @@
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- IDEs ----------
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+
+# ---------- Java / Gradle (backend) ----------
+.gradle/
+build/
+out/
+bin/
+*.class
+*.log
+hs_err_pid*
+
+# keep the Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---------- Node / Angular (frontend) ----------
+node_modules/
+dist/
+.angular/
+.sass-cache/
+npm-debug.log*
+yarn-error.log*
+coverage/
+*.tsbuildinfo
+
+# ---------- Secrets and local config ----------
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.properties
+*.pem
+*.key
+
+# ---------- Optional: Angular build copied into the jar ----------
+# backend/src/main/resources/static/
